@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2196F3"
     tools:context=".Login_Page">
 
     <Button
@@ -11,6 +12,7 @@
         android:layout_width="168dp"
         android:layout_height="62dp"
         android:text="Login"
+        app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toTopOf="@+id/btn_register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -23,6 +25,7 @@
         android:layout_height="62dp"
         android:layout_marginBottom="104dp"
         android:text="Register"
+        app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
