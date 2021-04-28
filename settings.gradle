@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Bose_Activity_3"
