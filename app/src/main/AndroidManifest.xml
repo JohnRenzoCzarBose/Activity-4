@@ -10,13 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bose_Activity_3">
         <activity android:name=".Home"></activity>
-        <activity android:name=".MainActivity" />
         <activity android:name=".Login_Page">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
         </activity>
     </application>
 
